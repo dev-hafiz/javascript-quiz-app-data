@@ -1,0 +1,110 @@
+ {
+      "results" : [
+        {
+          "category": "JavaScript Basics",
+          "difficulty": "easy",
+          "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+          "correct_answer": "<script src='app.js'></script>",
+          "incorrect_answers": ["<script href='app.js'></script>", "<script ref='app.js'></script>", "<script name='app.js'></script>"]
+        },
+        {
+          "category": "JavaScript Basics",
+          "difficulty": "easy",
+          "question": "Which data type is NOT supported in JavaScript?",
+          "correct_answer": "Float",
+          "incorrect_answers": ["String", "Boolean", "Number"]
+        },
+        {
+          "category": "JavaScript Functions",
+          "difficulty": "medium",
+          "question": "How do you declare a JavaScript function?",
+          "correct_answer": "function myFunction() {}",
+          "incorrect_answers": ["function:myFunction() {}", "def myFunction() {}", "func myFunction {}"]
+        },
+        {
+          "category": "JavaScript Variables",
+          "difficulty": "easy",
+          "question": "Which keyword is used to declare a variable in JavaScript?",
+          "correct_answer": "let",
+          "incorrect_answers": ["var", "const", "declare"]
+        },
+        {
+          "category": "JavaScript Operators",
+          "difficulty": "medium",
+          "question": "What does the '===' operator do in JavaScript?",
+          "correct_answer": "Checks both value and type",
+          "incorrect_answers": ["Checks value only", "Checks type only", "Performs addition"]
+        },
+        {
+          "category": "JavaScript Loops",
+          "difficulty": "medium",
+          "question": "Which loop is guaranteed to execute at least once?",
+          "correct_answer": "do...while",
+          "incorrect_answers": ["for", "while", "forEach"]
+        },
+        {
+          "category": "JavaScript Arrays",
+          "difficulty": "easy",
+          "question": "How do you access the first element in an array?",
+          "correct_answer": "array[0]",
+          "incorrect_answers": ["array[1]", "array.first()", "array.start()"]
+        },
+        {
+          "category": "JavaScript Objects",
+          "difficulty": "medium",
+          "question": "How do you access the 'name' property of an object?",
+          "correct_answer": "object.name",
+          "incorrect_answers": ["object['name']", "object->name", "object(name)"]
+        },
+        {
+          "category": "JavaScript ES6",
+          "difficulty": "hard",
+          "question": "What is the purpose of the `let` keyword in JavaScript?",
+          "correct_answer": "Declares a block-scoped variable",
+          "incorrect_answers": ["Declares a function-scoped variable", "Declares a constant variable", "Declares a global variable"]
+        },
+        {
+          "category": "JavaScript Functions",
+          "difficulty": "hard",
+          "question": "What does the `bind()` method do in JavaScript?",
+          "correct_answer": "Creates a new function with a specific 'this' context",
+          "incorrect_answers": ["Calls a function immediately", "Creates a new object", "Copies a function"]
+        },
+        {
+          "category": "JavaScript Promises",
+          "difficulty": "medium",
+          "question": "What is the purpose of the `catch` method in a promise?",
+          "correct_answer": "Handles errors from the promise",
+          "incorrect_answers": ["Executes code after the promise resolves", "Combines multiple promises", "Retries the promise"]
+        },
+        {
+          "category": "JavaScript DOM",
+          "difficulty": "easy",
+          "question": "Which method is used to select an element by its ID?",
+          "correct_answer": "document.getElementById()",
+          "incorrect_answers": ["document.querySelector()", "document.getElementByClass()", "document.getElementByTag()"]
+        },
+        {
+          "category": "JavaScript Events",
+          "difficulty": "medium",
+          "question": "What is the purpose of the `addEventListener` method?",
+          "correct_answer": "Attaches an event handler to an element",
+          "incorrect_answers": ["Removes an event handler", "Triggers an event", "Stops an event"]
+        },
+        {
+          "category": "JavaScript Advanced",
+          "difficulty": "hard",
+          "question": "What is the output of `typeof NaN` in JavaScript?",
+          "correct_answer": "number",
+          "incorrect_answers": ["NaN", "undefined", "object"]
+        },
+        {
+          "category": "JavaScript Closures",
+          "difficulty": "hard",
+          "question": "What is a closure in JavaScript?",
+          "correct_answer": "A function that retains access to its lexical scope",
+          "incorrect_answers": ["A function that only works with global variables", "A function that immediately executes", "A function that returns another function"]
+        }
+      ]
+    }
+  
