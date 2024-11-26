@@ -1,12 +1,6 @@
  {
       "results" : [
-        {
-          "category": "JavaScript Basics",
-          "difficulty": "easy",
-          "question": "What is the correct syntax for referring to an external script called 'app.js'?",
-          "correct_answer": "<script src='app.js'></script>",
-          "incorrect_answers": ["<script href='app.js'></script>", "<script ref='app.js'></script>", "<script name='app.js'></script>"]
-        },
+       
         {
           "category": "JavaScript Basics",
           "difficulty": "easy",
